@@ -12,7 +12,7 @@ cd vjepa2-decoder
 pip install -r requirements.txt
 ```
 
-## Quick Start
+## Quick Start (need a trained decoder ckpt)
 
 ```python
 from vjepa2_decoder import create_frame_decoder, load_vjepa2_models
@@ -133,7 +133,7 @@ vjepa2_decoder/
 
 ## TODO
 
-- [ ] Upload pre-trained weights
+- [ ] Upload decoder ckpts
 - [ ] Upload demo
 
 ## License
