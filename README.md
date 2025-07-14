@@ -131,7 +131,3 @@ vjepa2_decoder/
 ├── main.py           # Command-line interface
 └── __init__.py       # Package initialization
 ```
-
-## License
-
-MIT
