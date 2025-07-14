@@ -1,10 +1,10 @@
 # V-JEPA 2 Frame Decoder
 
-A frame decoder for V-JEPA 2 latents that visualizes model predictions in pixel space. This feedforward network is trained on the Libero dataset using mean-squared error pixel reconstruction loss, following Sec. B.3 of the V-JEPA 2 tech report ([paper link](https://arxiv.org/abs/2506.09985)).
+A frame decoder for V-JEPA 2 latents that visualizes model predictions in pixel space. This feedforward network is trained on the Libero dataset using mean-squared error pixel reconstruction loss, following Sec. B.3 of the V-JEPA 2 tech report ([paper link](https://arxiv.org/abs/2506.09985)). First, generate latents with V-JEPA 2 ckpts (dataset.py). Then, train this frame decoder on the dataset. The decoder can visualize the predictions of V-JEPA 2 predictor (predict.py main.py).
 
 ## Installation
 
-Requires Python 3.8+:
+Requires V-JEPA 2 installed. 
 
 ```bash
 git clone https://github.com/username/vjepa2-decoder.git
