@@ -131,3 +131,12 @@ vjepa2_decoder/
 ├── main.py           # Command-line interface
 └── __init__.py       # Package initialization
 ```
+
+## TODO
+
+- [ ] Upload pre-trained weights
+- [ ] Upload demo
+
+## License
+
+MIT
