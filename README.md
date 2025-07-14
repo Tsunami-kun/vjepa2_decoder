@@ -10,7 +10,6 @@ Requires Python 3.8+:
 git clone https://github.com/username/vjepa2-decoder.git
 cd vjepa2-decoder
 pip install -r requirements.txt
-pip install -e .
 ```
 
 ## Quick Start
